@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  color: grey;
+  font-family: "Sofia","Lucida Grande", "Lucida Sans Unicode", "Verdana", sans-serif;;
+  font-size: 11px;
+}
+
+p {
+	font-family: 'Open Sans', sans-sans-serif;
+	margin: 15px 0px;
+	line-height: 25px;
+}
+p.main-body::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+.animation{
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.container-header {
+  margin: 0 auto;
+  text-align: center;
+  padding: 2px 2px;
+}
+.container-bottom {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container-bottom-form {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+main.container {
+  background: white;
+}
+
+header {
+  background: #333;
+  padding: 2px 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+header nav {
+  width: 450px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 70px;
+}
+
+header nav a {
+  color: black;
+  text-decoration: none;
+  background: #f2f2f2;
+  padding: 20px;
+  transition: .3s;
+}
+
+header nav a:hover {
+  color: #f2f2f2;
+  background: black;
+  transition: .3s;
+}
+
+nav ul li {
+  display: inline;
+}
+
+.logo {
+  width: 200px;
+}
+
+section.hero-section {
+    background: url(../images/galaxy.jpg) center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.hero-content {
+  background: white;
+  padding: 35px;
+  margin: 0 auto;
+}
+
+.hero-other-content {
+    clear: both;
+    background: white;
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.middle-section {
+  width: 400px;
+  float: left;
+  padding: 70px 20px;
+}
+
+section.home-bottom {
+    clear: both;
+    padding: 85px 55px;
+}
+.home-middle {
+padding-top: 5px;
+}
+
+section.home-bottom img {
+    float: left;
+    padding: 0 45px;
+}
+section.home-final {
+    clear: both;
+    padding: 85px 55px;
+}
+
+section.home-final img {
+    float: left;
+    padding: 0 45px;
+}
+
+.gallery {
+	padding: 10px 0;
+
+}
+
+.console {
+	width: 250px;
+	display: inline-block;
+	margin-top: 10px;
+	padding: 15px 20px;
+}
+
+.console img {
+	width: 220px;
+	border: 1px solid black;
+}
+
+.console p:first-of-type{
+	color: gray;
+}
+
+.console a {
+	color: white;
+	background: #333;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+
+.console:hover {
+	box-shadow: 1px 1px 1px #333;
+}
+
+.gallery .console:nth-child(even) {
+	background: #f2f2f2;
+}
+
+#social-footer{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 10px;
+}
+footer {
+  background: black;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+
+footer.container {
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+  transition: .3s;
+  margin: 0 10px;
+}
+
+footer nav a:hover {
+  color: yellow;
+  transition: .3s;
+}
